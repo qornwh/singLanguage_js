@@ -1,0 +1,57 @@
+@font-face{
+    font-family: "Nanum Gothic";
+    src: local("NanumGothic-Regular");
+    src: url('./Nanum_Gothic/NanumGothic-Regular.ttf') format('truetype');
+    font-style: normal;
+    font-weight: 400;
+}
+
+body, html{
+    background: cyan;
+    color: cornflowerblue;
+}
+
+label {
+    text-align: center;
+    display: block;
+    font-style: normal;
+    font-size: 30px;
+  }
+#result{
+  width:200px;
+  height:40px;
+  font-size:20px;
+  border: 3px solid green;
+  text-align: center;
+  font-size: 30px;
+}
+
+.segment{
+    color: rgb(38, 88, 88);
+    background-color: rgba(2, 179, 179, 0.555);
+    text-shadow: 1px 1px 1px #FFF;
+    padding: 8px 0;
+}
+
+
+#webcam-container {
+  text-align: center;
+}
+
+#webcam {
+  display: inline-block;
+  vertical-align: middle;
+  border: 3px solid green;
+  padding: 10px;
+}
+
+.data-container{
+  text-align: center;
+  vertical-align: middle;
+  padding: 10px;
+}
+
+.string{
+  background: lightslategrey;
+  border: 3px solid green;
+}

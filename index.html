@@ -1,0 +1,25 @@
+<!doctype html>
+<html>
+<head>
+    <script async src="https://docs.opencv.org/3.4/opencv.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@1.7.2"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@teachablemachine/image@0.8/dist/teachablemachine-image.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="http://localhost:3000/style.css">
+    <title>Sing Language</title>
+</head>
+<body>
+    <label>
+        Sing Language
+    </label><br>
+    <div id="webcam-container">
+        <video id="webcam" width = 500 height = 400 autoplay="True"></video>
+    </div>
+    <br>
+    <div class="data-container">
+        <canvas id="canvas" width = 200 height = 200 style="display:none"></canvas><br>
+        <label for="result">data는 : <input type="text" id="result" value="" readonly></label><br>
+        <input type="textarea" class="string" value="" readonly = "readonly">
+    </div>
+    <script src="http://localhost:3000/video.js"></script>
+</body>
+</html>
